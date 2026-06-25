@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ibrahim S. - Data Professional Portfolio</title>
+    <meta name="description"
+        content="Portfolio of Ibrahim S., a Data Scientist turning complex data into actionable business strategies.">
+
+    <!-- Google Fonts: Inter and Roboto Mono -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Roboto+Mono:wght@400;500&display=swap"
+        rel="stylesheet">
+
+    <!-- Lucide Icons via unpkg -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">Ibrahim<span>.</span>S</div>
+            <ul class="nav-links">
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- 1. HERO SECTION -->
+    <header class="hero" id="home">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-headline">Hi, I'm <span class="accent-text">Ibrahim</span>.<br>I turn complex data into
+                    actionable business strategies.</h1>
+                <p class="hero-subheadline">Data Scientist & Data Analyst | Python, SQL, Machine Learning, Power BI</p>
+
+                <div class="hero-cta">
+                    <a href="assets/resume.pdf" target="_blank" class="btn btn-primary">
+                        <i data-lucide="file-text"></i> Download Resume
+                    </a>
+                    <a href="https://www.linkedin.com/in/ibrahim---s/" target="_blank" class="btn btn-secondary">
+                        <i data-lucide="linkedin"></i> LinkedIn
+                    </a>
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ibrahims86x@gmail.com" target="_blank"
+                        class="btn btn-secondary">
+                        <i data-lucide="mail"></i> Email Me
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image-wrapper">
+                <!-- Using a relative path. Place your photo inside an 'assets' folder as 'photo.jpg' -->
+                <img src="assets/photo.jpg" alt="Ibrahim S. - Professional Photo" class="hero-image"
+                    onerror="this.src='https://placehold.co/600x600/1e293b/14b8a6?text=Photo+Here'">
+            </div>
+        </div>
+    </header>
+
+    <!-- EXPERIENCE SECTION -->
+    <section class="experience-section" id="experience">
+        <div class="section-container">
+            <h2 class="section-title">Experience</h2>
+            <div class="experience-card">
+                <div class="experience-header">
+                    <div>
+                        <h3 class="experience-title">Data Analyst Intern</h3>
+                        <p class="experience-company">Bluestock Fintech <span>| Remote</span></p>
+                    </div>
+                    <div class="experience-date">
+                        May 2026 – Present
+                    </div>
+                </div>
+                <ul class="experience-list">
+                    <li>Developed ETL workflows to ingest, validate, and process mutual fund and financial market
+                        datasets using Python, Pandas, and Excel.</li>
+                    <li>Performed data profiling and quality checks by analyzing missing values, duplicates, schema
+                        consistency, and AMFI scheme code validation across datasets.</li>
+                    <li>Integrated live mutual fund NAV data through financial APIs and transformed raw data into
+                        structured formats for analysis and reporting.</li>
+                    <li>Conducted exploratory data analysis on mutual fund datasets including fund master records, NAV
+                        history, AUM trends, SIP inflows, and benchmark performance while managing projects using Git
+                        and GitHub.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- 2. REUSABLE FEATURED PROJECTS GRID -->
+    <section class="projects-section" id="projects">
+        <div class="section-container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+
+                <!-- Project Card 1 -->
+                <article class="project-card">
+                    <div class="project-image-wrapper">
+                        <!-- Place your dashboard image in the assets folder as 'stock-dashboard.png' -->
+                        <img src="assets/stock-dashboard.png" alt="Stock Price Prediction" class="project-image"
+                            onerror="this.src='file:///C:/Users/ibrah/.gemini/antigravity/brain/0723d971-f561-4e09-a64a-fb925de0ffae/project_dashboard_1782367843979.png'">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Stock Price Prediction</h3>
+                        <p class="project-desc">Built a machine learning model using LSTM networks to forecast
+                            short-term stock price movements. Created a clean, interactive UI in Streamlit for users to
+                            view historical trends and predictions in real-time.</p>
+                        <div class="tech-stack">
+                            <span class="badge">Python</span>
+                            <span class="badge">Keras</span>
+                            <span class="badge">LSTM</span>
+                            <span class="badge">Streamlit</span>
+                        </div>
+                        <div class="project-links">
+                            <!-- REPLACE THE HREF WITH YOUR ACTUAL GITHUB LINK -->
+                            <a href="https://github.com/yourusername/stock-price-prediction" target="_blank"
+                                class="link-icon"><i data-lucide="github"></i> View Code</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project Card 2 -->
+                <article class="project-card">
+                    <div class="project-image-wrapper">
+                        <!-- Place your project image in the assets folder as 'crypto-project.png' -->
+                        <img src="assets/crypto-project.png" alt="Kyber-Based Post-Quantum Cryptography"
+                            class="project-image"
+                            onerror="this.src='file:///C:/Users/ibrah/.gemini/antigravity/brain/0723d971-f561-4e09-a64a-fb925de0ffae/project_architecture_1782367853922.png'">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Post-Quantum Cryptography</h3>
+                        <p class="project-desc">Developed modules for secure key exchange using lattice-based
+                            cryptographic operations (CRYSTALS-Kyber). Configured a Raspberry Pi environment to handle
+                            real-time cryptographic operations complying with NIST standards.</p>
+                        <div class="tech-stack">
+                            <span class="badge">Python</span>
+                            <span class="badge">Raspberry Pi</span>
+                            <span class="badge">Cryptography</span>
+                        </div>
+                        <div class="project-links">
+                            <!-- REPLACE THE HREFS WITH YOUR ACTUAL LINKS -->
+                            <a href="https://github.com/yourusername/kyber-crypto" target="_blank" class="link-icon"><i
+                                    data-lucide="github"></i> View Code</a>
+                            <a href="https://ijert.org/your-publication-link" target="_blank" class="link-icon"><i
+                                    data-lucide="file-text"></i> Publication</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- New Project Card Template -->
+                <article class="project-card extra-project">
+                    <div class="project-image-wrapper">
+                        <!-- 1. Change the image name here -->
+                        <img src="assets/my-new-project.png" alt="Project Title" class="project-image">
+                    </div>
+                    <div class="project-content">
+                        <!-- 2. Change the Title -->
+                        <h3 class="project-title">Your New Project Title</h3>
+
+                        <!-- 3. Change the Description -->
+                        <p class="project-desc">A brief 2-sentence description of what problem you solved and what the
+                            impact was.</p>
+
+                        <!-- 4. Update your Tech Stack tags -->
+                        <div class="tech-stack">
+                            <span class="badge">Python</span>
+                            <span class="badge">Pandas</span>
+                            <span class="badge">Scikit-Learn</span>
+                        </div>
+
+                        <!-- 5. Update your Links -->
+                        <div class="project-links">
+                            <a href="https://github.com/ibbu0101/your-repo" target="_blank" class="link-icon">
+                                <i data-lucide="github"></i> View Code
+                            </a>
+                            <!-- Optional: Add a live dashboard link -->
+                            <a href="https://your-dashboard-link.com" target="_blank" class="link-icon">
+                                <i data-lucide="external-link"></i> Live App
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+
+            <div class="view-more-container" style="text-align: center; margin-top: 3rem;">
+                <button id="viewMoreBtn" class="btn btn-secondary">View More Projects</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. TECHNICAL SKILLS INVENTORY -->
+    <section class="skills-section" id="skills">
+        <div class="section-container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+
+                <div class="skill-category">
+                    <h3 class="skill-title"><i data-lucide="code"></i> Programming</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">Mathematics & Stats</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="skill-title"><i data-lucide="brain-circuit"></i> Frameworks</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">TensorFlow</span>
+                        <span class="skill-tag">PyTorch</span>
+                        <span class="skill-tag">Scikit-Learn</span>
+                        <span class="skill-tag">Keras</span>
+                        <span class="skill-tag">Seaborn</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="skill-title"><i data-lucide="pie-chart"></i> Visualization & BI</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Advanced Excel</span>
+                        <span class="skill-tag">Power BI</span>
+                        <span class="skill-tag">Tableau</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="skill-title"><i data-lucide="activity"></i> Analytical Abilities</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Data Cleaning</span>
+                        <span class="skill-tag">EDA</span>
+                        <span class="skill-tag">Insight Generation</span>
+                        <span class="skill-tag">Descriptive Statistics</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. ABOUT ME & BACKGROUND -->
+    <section class="about-section" id="about">
+        <div class="section-container">
+            <div class="about-grid">
+                <div class="about-text">
+                    <h2 class="section-title">About Me</h2>
+                    <p>I am a Data Scientist with a strong foundation in SQL, Python, machine learning algorithms, NLP,
+                        Excel, and Power BI. I am skilled in cleaning, analyzing, building machine learning models, and
+                        visualizing data to generate insights and support data-driven decision-making.</p>
+                    <p>I am seeking opportunities to apply my analytical skills in dynamic, fast-paced environments,
+                        bridging the gap between complex datasets and strategic business execution.</p>
+
+                    <h3 class="education-title">Education & Certifications</h3>
+                    <ul class="education-list">
+                        <li><strong>B.E Electronics & Telecommunication Engineering</strong><br>Dr. Ambedkar Institute
+                            of Technology, Bangalore (CGPA: 6.79 / 10) | Graduate: 2026</li>
+                        <li><strong>Microsoft Data Analytics Certificate</strong> - Great Learning (2025)</li>
+                        <li><strong>Research Paper Publication</strong> - IJERT Journal (2025): CRYSTALS-Kyber
+                            post-quantum algorithm</li>
+                    </ul>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">2+</span>
+                        <span class="stat-label">Years Learning Data Science</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">10+</span>
+                        <span class="stat-label">Core Technologies</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">1</span>
+                        <span class="stat-label">Research Publication</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. CONTACT SECTION & FOOTER -->
+    <footer class="footer-section" id="contact">
+        <div class="section-container">
+            <div class="footer-content">
+                <h2 class="footer-title">Let's build something data-driven.</h2>
+                <p class="footer-subtitle">I'm currently seeking new opportunities and challenges. Whether you have a
+                    question or just want to connect, I'd love to hear from you!</p>
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ibrahims86x@gmail.com" target="_blank"
+                    class="btn btn-primary footer-btn">
+                    <i data-lucide="mail"></i> Get In Touch
+                </a>
+
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/ibrahim---s/" target="_blank" aria-label="LinkedIn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+                            <rect width="4" height="12" x="2" y="9" />
+                            <circle cx="4" cy="4" r="2" />
+                        </svg>
+                    </a>
+                    <a href="https://github.com/ibbu0101" target="_blank" aria-label="GitHub">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path
+                                d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4" />
+                            <path d="M9 18c-4.51 2-5-2-7-2" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Ibrahim S. Built with Vanilla JS & CSS.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script>
+        // Initialize Icons
+        lucide.createIcons();
+
+        // View More Projects Logic
+        const viewMoreBtn = document.getElementById('viewMoreBtn');
+        const extraProjects = document.querySelectorAll('.extra-project');
+
+        if (viewMoreBtn) {
+            viewMoreBtn.addEventListener('click', () => {
+                let isHidden = false;
+
+                extraProjects.forEach(project => {
+                    // Check computed style or inline style
+                    if (window.getComputedStyle(project).display === 'none') {
+                        project.style.display = 'flex';
+                        isHidden = true;
+                    } else {
+                        project.style.display = 'none';
+                    }
+                });
+
+                if (isHidden) {
+                    viewMoreBtn.innerText = 'Show Less';
+                } else {
+                    viewMoreBtn.innerText = 'View More Projects';
+                }
+            });
+        }
+    </script>
+</body>
+
+</html>
